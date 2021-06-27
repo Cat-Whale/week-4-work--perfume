@@ -1,0 +1,226 @@
+//內容寬度
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.h-100 {
+    height: 100%;
+}
+
+//flex
+
+.d-flex {
+    display: flex;
+}
+.d-none {
+    display: none;
+}
+.d-pad-block {
+    @include pad {
+        display: block;
+    }
+}
+.d-pad-flex {
+    @include pad {
+        display: flex;
+    }
+}
+.d-pad-none {
+    @include pad {
+        display: none;
+    }
+}
+.jc-spacebetween {
+    justify-content: space-between;
+}
+.jc-end {
+    justify-content: flex-end;
+}
+.jc-center {
+    justify-content: center;
+}
+.d-pad-jc-center {
+    @include pad {
+        justify-content: center;
+    }
+}
+.ai-center {
+    align-items: center;
+}
+.fd-row-reverse {
+    flex-direction: row-reverse;
+}
+.fd-column {
+    flex-direction: column;
+}
+.fd-pad-column {
+    @include pad {
+        flex-direction: column;
+    }
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+.vertical-center {
+    vertical-align: middle;
+}
+
+//字體大小
+
+.fz-s {
+    font-size: $font-size-s;
+}
+.fz-m {
+    font-size: $font-size-m;
+}
+.fz-l {
+    font-size: $font-size-l;
+}
+.fz-xl {
+    font-size: $font-size-xl;
+}
+
+//行距
+
+.lh-s {
+    line-height: $light-height-s;
+}
+.lh-m {
+    line-height: $light-height-m;
+}
+.lh-l {
+    line-height: $light-height-l;
+}
+.lh-xl {
+    line-height: $light-height-xl;
+}
+
+//字體粗細
+
+.fw-light {
+    font-weight: 300;
+}
+.fw-regular {
+    font-weight: 400;
+}
+.fw-medium {
+    font-weight: 500;
+}
+.fw-semibold {
+    font-weight: 600;
+}
+.fw-bold {
+    font-weight: 700;
+}
+
+//按鈕
+
+.btn {
+    border: 2px solid;
+    border-radius: 30px;
+    text-align: center;
+}
+.iconColor {
+    color: $second-color;
+}
+
+//margin
+
+.mt-3 {
+    margin-top: 3px;
+}
+.mt-8 {
+    margin-top: 8px;
+}
+.mt-16 {
+    margin-top: 16px;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+.mt-80 {
+    margin-top: 80px;
+}
+.mt-pad-8 {
+    @include pad {
+        margin-top: 8px;
+    }
+}
+.ml-11 {
+    margin-left: 11px;
+}
+.mr-30 {
+    margin-right: 30px;
+}
+.mb-16 {
+    margin-bottom: 16px;
+}
+.mb-22 {
+    margin-bottom: 22px;
+}
+.mb-52 {
+    margin-bottom: 52px;
+}
+.mb-58 {
+    margin-bottom: 58px;
+}
+.mb-60 {
+    margin-bottom: 60px;
+}
+.mb-pad-4 {
+    @include pad {
+        margin-bottom: 4px;
+    }
+}
+
+.my-0 {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.my-60 {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.my-92 {
+    margin-top: 92px;
+    margin-bottom: 92px;
+}
+.py-9 {
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+.py-13 {
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+.py-14 {
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+.py-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.py-40 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.px-10 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.px-14 {
+    padding-left: 14px;
+    padding-right: 14px;
+}
+.px-15 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.px-18 {
+    padding-left: 18px;
+    padding-right: 18px;
+}

@@ -1,0 +1,76 @@
+.banner {
+    background-image: url(../img/banner.jpg);
+    height: 870px;
+    .banner-body {
+        color: $content-color;
+        max-width: 445px;
+        @include pad {
+            margin: 15px;
+            max-width: 345px;
+        }
+
+        h2 {
+            font-size: 40px;
+            line-height: 60px;
+            @include pad {
+                font-size: $font-size-xl;
+                line-height: $light-height-xl;
+            }
+        }
+        p {
+            @include pad {
+                font-size: $font-size-m;
+                line-height: $light-height-m;
+            }
+        }
+        a {
+            font-size: 28px;
+            max-width: 350px;
+            &:hover {
+                background: rgba(255, 255, 255, 0.3);
+            }
+        }
+    }
+    @include pad {
+        background-image: url(../img/banner-s.jpg);
+        background-repeat: no-repeat;
+        background-position: -125px;
+        height: 480px;
+    }
+}
+
+.endbanner {
+    background-image: url(../img/endbanner.jpg);
+    height: 600px;
+    padding-top: 312px;
+    color: $navbar-color;
+    @include pad {
+        background-image: url(../img/endbanner-s.jpg);
+        background-repeat: no-repeat;
+        background-position: -150px -275px;
+        
+    }
+    .input-body {
+        .input-area {
+            display: inline-block;
+            color: $navbar-color;
+            width: 215px;
+            height: 60px;
+            border: 2px solid #916000;
+            border-radius: 4px 0px 0px 4px;
+            padding-left: 16px;
+        }
+        .input-btn {
+            color: $content-color;
+            width: 125px;
+            height: 60px;
+            border: 2px solid #916000;
+            border-radius: 0px 4px 4px 0px;
+            margin-left: -6px;
+            background: #916000;
+            &:hover {
+                background: #6c4700;
+            }
+        }
+    }
+}

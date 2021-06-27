@@ -1,0 +1,51 @@
+.logo {
+    img {
+        max-width: 128px;
+        height: auto;
+    }
+}
+
+.navbar {
+    color: $navbar-color;
+}
+
+.quantity {
+    position: relative;
+}
+
+em {
+    display: block;
+    position: absolute;
+    top: -3px;
+    right: 0px;
+    border-radius: 100%;
+    background: $theme-color;
+    color: $content-color;
+    width: 12px;
+    height: 12px;
+    line-height: 12px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.bars {
+    img {
+        max-width: 32px;
+        height: auto;
+    }
+}
+
+.themeColor-bar {
+    background: $theme-color;
+    color: $content-color;
+}
+
+.rights {
+    @include pad {
+        width: 768px;
+    }
+}
+.rights-text {
+    margin-left: 20px;
+    font-size: 14px;
+}
